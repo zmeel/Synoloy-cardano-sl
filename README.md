@@ -1,6 +1,6 @@
 **System: Docker container running Debian:latest on Synology DS415+ (8 Gb RAM)**
 
-Building this on a Synology DS415+ is a very lengthy proccess. It will take many hours. After the build is finished you can run the [cardano-sl](https://github.com/input-output-hk/cardano-sl) node 24/7 in this container.
+Building this on a Synology DS415+ is a very lengthy proccess. It will take a few hours. After the build is finished you can run the [cardano-sl](https://github.com/input-output-hk/cardano-sl) node 24/7 in this container.
 
 Setup Docker:
 <pre>
