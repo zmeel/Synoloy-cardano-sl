@@ -55,12 +55,14 @@ binary-caches-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNG
 build-users-group =
 </pre>
 
+Getting the Cardano-sl code:
 <pre>
 $ git clone https://github.com/input-output-hk/cardano-sl.git
 $ cd cardano-sl
 $ git checkout master
 </pre>
 
+Building the node: you can build all but 'cardano-sl-wallet' is enough for the backend
 <pre>
 nix-build -A cardano-sl-static --cores 0 --max-jobs 2 --no-build-output --out-link cardano-sl-1.0
 nix-build -A cardano-report-server-static --cores 0 --max-jobs 2 --no-build-output --out-link cardano-sl-1.0
