@@ -7,7 +7,7 @@ Get the Debian image:
 docker pull debian:latest
 </pre>
 
-Setup Docker:
+Setup Docker: check your LAN IP address. My Gateway is 192.168.178.1 so I define my subnet as --subnet 192.168.178.0/24. If your Gateway is for example 192.168.0.1 then define subnet as --subnet 192.168.0.0/24.
 <pre>
 docker network create -d macvlan --subnet 192.168.178.0/24 --ip-range 192.168.178.250/3 --gateway 192.168.178.1 -o parent=ovs_eth0 cardano_net
 docker run -d --name=cardano-sl --network cardano_net debian:latest tail -f /dev/null
