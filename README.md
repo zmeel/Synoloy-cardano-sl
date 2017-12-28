@@ -9,7 +9,7 @@ docker run -d --name=cardano-sl --network cardano_net debian:latest tail -f /dev
 </pre>
 
 
-This is a minimal install of Ubuntu so we have to add lots of stuff:
+This is a minimal install of Debian so we have to add lots of stuff:
 <pre>
 apt-get update
 apt-get upgrade
@@ -21,7 +21,7 @@ apt-get install sudo
 apt-get install nano
 </pre>
 
-Configure and start the SSH server:
+Configure and start the SSH server with nohup:
 <pre>
 echo 'root:screencast' | chpasswd
 sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
