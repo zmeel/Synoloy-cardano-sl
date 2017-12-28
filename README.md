@@ -26,7 +26,7 @@ apt-get install sudo
 apt-get install nano
 </pre>
 
-Configure and start the SSH server with nohup:
+Configure and start the SSH server with nohup: we need to create a SSH tunnel later on in the process. Every time you restart this container you have to restart the SSH server.
 <pre>
 echo 'root:screencast' | chpasswd
 sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
