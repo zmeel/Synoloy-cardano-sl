@@ -94,7 +94,7 @@ terminal 3:
 npm run hot-start
 </pre>
 
-If you succeed in building the node and would like to test the Daedalus wallet you can send me some ADA on this address:DdzFFzCqrht9ZXsGFpW1EDApRjFYih8VfHnyUs7y7nDxMytE3h63KTRkoQSUUb2sV6pdVqqyV1LFAF436S3Qrw7TtmiVoP2KQid83n2r
+If you succeed in building the node and would like to test the Daedalus wallet you can send me some ADA on this address:<pre>DdzFFzCqrht9ZXsGFpW1EDApRjFYih8VfHnyUs7y7nDxMytE3h63KTRkoQSUUb2sV6pdVqqyV1LFAF436S3Qrw7TtmiVoP2KQid83n2r</pre>
 
 ## License
 Cardano SL is released under the terms of the [MIT license](https://opensource.org/licenses/MIT). Please see [LICENSE](https://github.com/input-output-hk/cardano-sl/blob/master/LICENSE) for more information.
