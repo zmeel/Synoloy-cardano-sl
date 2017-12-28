@@ -2,6 +2,11 @@
 
 Building this on a Synology DS415+ is a very lengthy proccess. It will take a few hours. After the build is finished you can run the [cardano-sl](https://github.com/input-output-hk/cardano-sl) node 24/7 in this container.
 
+Get the Debian image:
+<pre>
+docker pull debian:latest
+</pre>
+
 Setup Docker:
 <pre>
 docker network create -d macvlan --subnet 192.168.178.0/24 --ip-range 192.168.178.250/3 --gateway 192.168.178.1 -o parent=ovs_eth0 cardano_net
