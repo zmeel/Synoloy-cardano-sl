@@ -50,8 +50,8 @@ nano /etc/nix/nix.conf
 
 add to /etc/nix/nix.conf
 <pre>
-binary-caches             = https://cache.nixos.org https://hydra.iohk.io
-binary-caches-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=
+binary-caches            = https://cache.nixos.org https://hydra.iohk.io
+binary-cache-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=
 build-users-group =
 </pre>
 
