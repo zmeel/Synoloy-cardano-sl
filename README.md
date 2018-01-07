@@ -70,7 +70,7 @@ nix-build -A cardano-sl-auxx --cores 0 --max-jobs 2 --no-build-output --out-link
 nix-build -A cardano-sl-explorer-static --cores 0 --max-jobs 2 --no-build-output --out-link cardano-sl-1.0
 nix-build -A cardano-sl-wallet --cores 0 --max-jobs 2 --no-build-output --out-link cardano-sl-1.0
 nix-build -A cardano-sl-tools --cores 0 --max-jobs 2 --no-build-output --out-link cardano-sl-1.0
-nix-build release.nix -A connect.mainnetWallet -o connect-to-mainnet
+nix-build -A connectScripts.mainnetWallet -o connect-to-mainnet
 </pre>
 
 Starting Cardano-sl node in Synology DS415+ Docker container:
